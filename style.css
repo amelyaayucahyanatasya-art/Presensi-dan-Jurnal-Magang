@@ -1,0 +1,58 @@
+body {
+font-family: 'Poppins', sans-serif;
+margin: 0;
+background-color: #f8fbff;
+}
+.sidebar {
+width: 220px;
+height: 100vh;
+background: #3a8dff;
+color: white;
+position: fixed;
+padding: 20px;
+}
+.sidebar a {
+color: white;
+text-decoration: none;
+display: block;
+padding: 8px;
+border-radius: 6px;
+margin: 6px 0;
+}
+.sidebar a:hover, .active {
+background: #73b4ff;
+}
+.content {
+margin-left: 240px;
+padding: 20px;
+}
+.card {
+background: white;
+border-radius: 10px;
+padding: 20px;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.login-container {
+width: 320px;
+margin: 10% auto;
+background: white;
+border-radius: 12px;
+padding: 30px;
+box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.login-container input, select, button {
+width: 100%;
+padding: 10px;
+margin: 8px 0;
+border-radius: 6px;
+border: 1px solid #ccc;
+}
+.login-container button {
+background: #3a8dff;
+color: white;
+border: none;
+cursor: pointer;
+}
+.login-container button:hover {
+background: #2f74d0;
+}
